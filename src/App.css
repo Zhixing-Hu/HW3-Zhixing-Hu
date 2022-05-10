@@ -28,11 +28,23 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+.inprogress {
+  color: black;
+}
+
+.notshow {
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.show {
+  border: none;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
 }
